@@ -1,0 +1,56 @@
+/* IMPORT */
+/* #MAIN VARIABLE
+================================================== */
+/*FLAT COLOR*/
+/*#FEED
+================================================== */
+/* ---
+////////////////////////////////////////// */
+.absolute {
+  display: none;
+  background: url(../img/shadows/sprite-shadows.png) no-repeat top left;
+  width: 154px;
+  height: 134px;
+  position: absolute;
+}
+.window a:hover .absolute {
+  display: inline-block;
+}
+.flat-1 {
+  background-position: 0 0;
+  width: 154px;
+  height: 134px;
+}
+.flat-2 {
+  background-position: -164px 0;
+  width: 154px;
+  height: 134px;
+}
+.flat-3 {
+  background-position: -328px 0;
+  width: 154px;
+  height: 134px;
+}
+.flat-4 {
+  background-position: -492px 0;
+  width: 154px;
+  height: 134px;
+}
+.flat-5 {
+  background-position: -656px 0;
+  width: 154px;
+  height: 134px;
+}
+.flat-6 {
+  background-position: -820px 0;
+  width: 154px;
+  height: 134px;
+}
+.flat-7 {
+  background-position: -984px 0;
+  width: 154px;
+  height: 134px;
+}
+.absolute.flat-5 {
+  display: inline-block;
+}
