@@ -1,0 +1,108 @@
+/*
+ * MAP
+ * =============================================
+ */
+ .markerTemplate{
+height: 350px;
+}
+.popupMap{
+width: 500px;
+}
+.media{
+	width : 60%;
+	float: left;
+}
+.infos{
+	width: 40%;
+	padding-left: 5px;
+	float: left;
+}
+#map{
+	width: 70%;
+	float: left;
+	overflow:hidden;
+	display:block;
+}
+#mapMobile{
+	width: 100%;
+	height:100%;
+	float: left;
+	overflow:hidden;
+	display:block;
+}
+.legendBox{
+    margin-top:10px;
+}
+.titreInfo{
+	font-size: 20pt;
+	margin-bottom: 10px;
+}
+.color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    float:left;
+    margin-top:5px;
+    margin-right:5px;
+}
+#form{
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+fieldset{
+    margin-top: 20px;
+    padding-top: 20px;
+    border: none;
+    float: left;
+    
+}
+#form fieldset:first-of-type{
+    margin-right: 10px;
+    padding-right: 20px;
+}
+fieldset legend{
+    font-size: 15pt;
+}
+fieldset label{
+    margin-right: 50px;
+}
+fieldset p{
+    margin-top: 10px;
+}
+input{
+    margin-bottom: 10px;
+}
+#form input:last-of-type{
+    margin-bottom: 0px;
+}
+#inputName{
+    margin-left: 20px;
+}
+[type=radio]{
+    margin-right: 20px;
+}
+[type=text]{
+    width: 200px;
+    height: 25px;
+}
+textarea{
+    width: 100%;
+    margin-top: 10px;
+    height: 80px;
+}
+#msg{
+    display: none;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color:green;
+}

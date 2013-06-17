@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Racines</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, width=device-width">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <script src="js/libs/jquery-1.9.0/jquery.min.js" type="text/javascript"></script>
+        <script src="js/racines.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="css/racines.css" />
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
+        
+        <div class="fond">
+        
+            <a href="index.html"><div class="toit">
+                <img src="images/roof2.png" id="imageToit"/>
+            </div></a>
+
+            <div class="maison">
+
+                <div class="fenetre" id="fenetre0">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre0" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+
+                <div class="fenetre" id="fenetre1">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre1" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+
+                <div class="fenetre" id="fenetre2">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre2" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="fenetre3">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre3" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="fenetre4">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre4" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="fenetre5">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre5" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="fenetre6">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre6" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="fenetre7">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre7" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="fenetre8">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre8" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="fenetre9">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre9" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="fenetre10">
+                    <a class="lienProfile"><div class="infos">
+                    </div></a>
+                    <div class="vitre" id="vitre10" style="background-image: url('images/carreaux.png');"></div>
+                </div>
+                <div class="fenetre" id="porte">
+                    <p class="entrez">Entrez pour plus de contenu</p> 
+                </div>
+                <div class="contenuSup">
+                    <div class="fermer"></div>
+                    <div class="imageContenu">
+                        <a href="mapMobile.php">
+							<img src="images/iconeMap.png" alt="Map">
+						</a>
+                    </div>
+                    <div class="imageContenu">
+                    	<a href="mailto:transmedia.comem@gmail.com"> 
+                        <img src="images/iconeContact.png" alt="Contact">
+                        </a>
+                    </div>
+                    <div class="imageContenu">
+                    	<a href="https://www.facebook.com/LesRacinesDaCote" target="_blank">
+                        <img src="images/iconeFace.png" alt="Facebook">
+                        </a>
+                    </div>
+                    <div class="imageContenu">
+                    	<a href="http://www.youtube.com/channel/UCEjef4xiuX5TBpmN8hf-q-g?feature=watch" target="_blank">
+                        <img src="images/iconeYouTube.png" alt="You Tube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+		$(document).ready(function() {
+			$('a').bind('click', function() {
+				window.location = $(this).attr('href');
+				return false;
+			});
+		});
+		
+	</script>
+    </body>
+</html>

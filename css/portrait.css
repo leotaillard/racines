@@ -1,0 +1,203 @@
+/* IMPORT */
+/* #MAIN VARIABLE
+================================================== */
+/*FLAT COLOR*/
+/*#FEED
+================================================== */
+/* #MAIN NAVIGATION
+================================================== */
+#main-page.bg-arnaud {
+  /*	background: #f5f5f5 url('../img/arnaud/background.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+
+}
+#portrait {
+  margin-top: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+#portrait h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#portrait #container-video {
+  float: left;
+  width: 70%;
+}
+#portrait #container-audio {
+  float: left;
+  width: 70%;
+  min-height: 400px;
+  position: relative;
+  background: #f5f5f5 url('../img/claudette/enveloppe.png') no-repeat center center;
+}
+#portrait #container-audio audio {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+#portrait #content {
+  width: 30%;
+  float: left;
+  padding: 0 10px 0 0;
+  height: auto;
+}
+#portrait #content-coloc {
+  width: 75%;
+  float: left;
+  padding: 0 10px;
+  height: auto;
+}
+#portrait #media-coloc {
+  width: 25%;
+  padding: 0 10px;
+  float: left;
+  height: auto;
+}
+#portrait #container-alice {
+  float: left;
+  width: 50%;
+}
+#portrait #content-alice {
+  width: 50%;
+  float: left;
+  height: auto;
+}
+#portrait p {
+  width: 100%;
+  line-height: 30px;
+  font-weight: lighter;
+}
+.chapitres {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  list-style: none;
+}
+/*.chapitres:hover:after{
+	content: '*cliquer sur les images ci dessus pour accèder aux chapitres';
+	font-size: 10px;
+}*/
+.chapitres li {
+  width: 100%;
+  min-height: 30px;
+  line-height: 30px;
+  margin-bottom: 2px;
+  background: white;
+  color: black;
+  padding-left: 10px;
+}
+.chapitres li:hover {
+  cursor: pointer;
+  background: #fff url('img/arrow-video.png') no-repeat right center;
+  animation: animatedBackground 500ms linear;
+}
+@keyframes animatedBackground {
+	from { background-position: 95% 0; }
+	to { background-position: 100% 0; }
+}
+
+Some CSS properties may need to be vendor-prefixed.
+.chapitres li a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+/*.chapitres li a:hover {
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  transform: rotate(10deg);
+}*/
+nav #chapitres {
+  margin-top: 10px;
+}
+/* CONTENT PLUS */
+#content-plus {
+  width: 100%;
+  margin: 10px 0 50px 0;
+  list-style: none;
+}
+#content-plus li {
+  padding: 3px;
+}
+#content-plus a,
+#content-coloc a {
+  color: #c0392b;
+}
+#content-plus a:hover,
+#content-coloc a:hover {
+  color: grey;
+}
+#content-plus p {
+  font-weight: lighter;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+#content-plus.claudette li,
+#content-plus.philipp li,
+#content-plus.dorothee li,
+#content-plus.mirjam li,
+#content-plus.alice li,
+#content-plus.anilda li {
+  width: 50%;
+  float: left;
+}
+#content-plus.arnaud li {
+  width: 33.333333333333336%;
+  float: left;
+}
+#content-plus.mirjam ol li {
+  width: 100%;
+  font-weight: lighter;
+}
+#content-plus img {
+  margin: 5px;
+  float: left;
+  width: 50%;
+}
+#content-plus.mirjam img {
+  margin: 5px;
+  float: left;
+  width: 25%;
+}
+table{
+	width: 100%;
+	margin-bottom: 20px;
+}
+table th{
+	text-align: left;
+}
+
+table td{
+	font-weight: lighter;
+}
+/* #galerie
+================================================== */
+#content-plus ul#galerie {
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#content-plus ul#galerie li {
+  float: left;
+  width: 25%;
+}
+#content-plus ul#galerie li img {
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+/* #BOOK
+================================================== */
+#magazine {
+  width: 100%;
+}
+#magazine div img {
+  min-width: 100%;
+  border: none;
+}

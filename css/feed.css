@@ -1,0 +1,117 @@
+/* IMPORT */
+/* #MAIN VARIABLE
+================================================== */
+/*FLAT COLOR*/
+/*#FEED
+================================================== */
+#feedContainer {
+  width: 960px;
+  height: 100%;
+  margin: 0px auto 20px auto;
+}
+#feedNav {
+  margin: auto auto 60px auto;
+  width: 960px;
+  height: 35px;
+}
+#bPrevious {
+  width: 130px;
+  float: left;
+}
+#bNext {
+  width: 130px;
+  float: right;
+}
+.post:first-child {
+  padding-top: 80px;
+}
+.post {
+  padding: 15px 0px;
+  overflow: hidden;
+}
+.user {
+  margin: 25px 25px auto auto;
+  padding: 15px;
+  width: 200px;
+  float: left;
+}
+.user p {
+  margin-top: 5px;
+}
+.postContent {
+  margin: 25px 35px 0px 0px;
+  padding: 15px;
+  width: 700px;
+  float: left;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  background: #ffffff;
+}
+.borderFacebook {
+  border: 5px solid #375899;
+}
+.borderInsta {
+  border: 5px solid #673831;
+}
+.borderTumblr {
+  border: 5px solid #35516b;
+}
+.arrow {
+  position: relative;
+  float: left;
+  width: 69px;
+  height: 56px;
+  top: 10px;
+  left: -77px;
+  margin-right: -77px;
+}
+.aFacebook {
+  background-image: url(img/arrow_facebook.png);
+}
+.aInsta {
+  background-image: url(img/arrow_insta.png);
+}
+.aTumblr {
+  background-image: url(img/arrow_tumblr.png);
+}
+.postContent img {
+  padding-top: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+.socialLogo {
+  float: right;
+  top: -43px;
+  right: -43px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.logoFacebook {
+  background-image: url(img/social_icon/facebook_flat_logo.png);
+}
+.logoInsta {
+  background-image: url(img/social_icon/insta_flat_logo.png);
+}
+.logoTumblr {
+  background-image: url(img/social_icon/tumblr_flat_logo.png);
+}
+button {
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #000000;
+  padding: 5px 20px;
+  background: #ffffff;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  border: 3px solid #000000;
+}
+button:hover {
+  background: #fcc772;
+}
+button:active {
+  background: #f39c12;
+}
